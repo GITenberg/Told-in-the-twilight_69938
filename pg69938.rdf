@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <pgterms:ebook rdf:about="ebooks/69938">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-02</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/25164">
+        <pgterms:name>Weatherly, F. E. (Frederic Edward)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1848</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1929</pgterms:deathdate>
+        <pgterms:alias>Weatherly, Frederic E. (Frederic Edward)</pgterms:alias>
+        <pgterms:alias>Weatherley, Frederick Edward</pgterms:alias>
+        <pgterms:alias>Weathersley F. E. (Frederic Edward)</pgterms:alias>
+        <pgterms:alias>Weatherly, Frederic Edward</pgterms:alias>
+        <pgterms:alias>Wetherby, Frederick E.</pgterms:alias>
+        <pgterms:alias>Weatherly, F. C.</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <marcrel:ill>
+      <pgterms:agent rdf:about="2009/agents/53908">
+        <pgterms:name>Edwards, Mary Ellen</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1838</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</pgterms:deathdate>
+        <pgterms:alias>Edwards, M. Ellen (Mary Ellen)</pgterms:alias>
+        <pgterms:alias>M. E. E. (Mary Ellen Edwards)</pgterms:alias>
+        <pgterms:alias>Staples, Mary Ellen</pgterms:alias>
+        <pgterms:alias>Staples, M. Ellen</pgterms:alias>
+        <pgterms:alias>Edwards, Ellen</pgterms:alias>
+        <pgterms:alias>MEE</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Mary_Ellen_Edwards"/>
+      </pgterms:agent>
+    </marcrel:ill>
+    <marcrel:ill>
+      <pgterms:agent rdf:about="2009/agents/55503">
+        <pgterms:name>Staples, John C.</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ill>
+    <dcterms:title>Told in the twilight</dcterms:title>
+    <pgterms:marc260>  $aUnited States :$bE. P. Dutton &amp; Company, $c1880.</pgterms:marc260>
+    <pgterms:marc508>Charlene Taylor and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive/American Libraries.)</pgterms:marc508>
+    <pgterms:marc904>https://archive.org/details/toldintwilight00weat/page/n7/mode/2up</pgterms:marc904>
+    <pgterms:marc905>20220331212159weatherley</pgterms:marc905>
+    <pgterms:marc906>1880</pgterms:marc906>
+    <pgterms:marc907>US</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nddcbbf9fac8e45f5ab59e66bd5e368c0">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69938/69938-h/69938-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/69938"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97894</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-02T19:51:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nde4d82d1faf141898cc0c4653e658578">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69938/69938-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/69938"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48876</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-02T19:51:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7802cf98f78f4074a1ab46b84ee08b2d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69938/69938-0.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/69938"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17430</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-02T19:51:45</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf7be27b46d024a8cae75dfd4fe3c6b90">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4e1b849fb9f74b4fbc43bc74623d86a9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69938/69938-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/69938"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9639400</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-02T19:51:45</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncc0d5018b14846b99207c69a2507db9e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd83e43435e3348cb9757b06f730c45d2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Mary_Ellen_Edwards">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
