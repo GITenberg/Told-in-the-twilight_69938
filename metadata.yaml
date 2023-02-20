@@ -18,6 +18,9 @@ contributor:
   - agent_name: Staples, John C.
     gutenberg_agent_id: '55503'
     url: http://www.gutenberg.org/2009/agents/55503
+covers:
+- cover_type: archival
+  image_path: 69938-h/images/cover-back.jpg
 creator:
   author:
     agent_name: Weatherly, F. E. (Frederic Edward)
@@ -33,6 +36,8 @@ creator:
     gutenberg_agent_id: '25164'
     url: http://www.gutenberg.org/2009/agents/25164
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/69938#Told-in-the-twilight
 gutenberg_issued: '2023-02-02'
 identifiers:
   gutenberg: '69938'
